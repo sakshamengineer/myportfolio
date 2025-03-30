@@ -3,18 +3,16 @@
   margin: 0px;
   padding: 0px;
 }
+body{
+  background-color: #1F232D;
+  color: white;
+  font-family: 'Roboto';
+}
 .navbar{
   background-color: #1F232D;
   position: sticky;
   top: 0px;
   z-index: 1;
-}
-.main{
-  background-color:#1F232D ; 
-  color: white;
-  height: 100vh;
-  font-family: 'Roboto';
-
 }
 .container{
   display: flex;
@@ -180,9 +178,6 @@ button{
   }
   .container-txt{
       flex-direction: column-reverse;
-  }
-  .main{
-      height: 100vh;
   }
   .txt {
       font-size: 1.5em;
