@@ -1,12 +1,21 @@
 import React from 'react'
-import Navbar from './components/navbar'
-import Text from './components/Text'
+import Home from './pages/Home';
+import About from './pages/About';
+import {
+  BrowserRouter as Router,
+  Routes,
+  Route,
+} from "react-router-dom";
 
 export default function App() {
   return (
-    <div style={{}} className='main'>
-      <Navbar/>
-      <Text/>
-    </div>
+    <>
+      <Router>
+        <Routes>
+          <Route exact path="/myportfolio" element={<Home />} />
+          <Route exact path='/About' element = {<About/>}/>
+        </Routes>
+      </Router>
+    </>
   )
 }

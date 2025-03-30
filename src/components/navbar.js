@@ -20,10 +20,10 @@ export default function Navbar() {
                 <div className="innernav">
                     <ul className={`nav-links ${active}`}>
                         <li className="nav-item">
-                            <a className="nav-link active" style={{ '--i': 1 }} aria-current="page" href="/">Home</a>
+                            <a className="nav-link active" style={{ '--i': 1 }} aria-current="page" href="/myportfolio">Home</a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" style={{ '--i': 2 }} href="/about">About</a>
+                            <a className="nav-link" style={{ '--i': 2 }} href="/about">About Me</a>
                         </li>
                         <li className="nav-item">
                             <a className="nav-link" style={{ '--i': 3 }} href="/skills">Skills</a>

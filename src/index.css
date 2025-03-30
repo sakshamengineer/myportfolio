@@ -158,8 +158,55 @@ button{
   animation: slidetop 1s ease forwards;
   animation-delay: 1.2s;
 }
+.right{
+  display: flex;
+  height: 90%;
+}
+
+
+/*  About Txt style */
+
+.about-body{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.About-container{
+  width: 82%;
+  display: flex;
+  background: black;
+  padding: 0px 30px;
+  margin: 10px 10px 30px;
+  box-shadow: 0px 0px 29px #2323d2;
+  border-radius: 20px;
+}
+.about-para{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.about-img{
+  height: clamp(6em, 22vw, 14em);
+  width: clamp(6em, 22vw, 14em);
+}
+.Aboutbtn{
+  display: inline-block;
+  opacity: 0;
+  animation: slidetop 1s ease forwards;
+  animation-delay: 0.8s;
+}
+.AboutAnimate{
+  opacity: 0;
+  animation: slideside 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
 
 /* responsive design */
+
+
 @media (max-width : 640px){
   .nav-links{
       position: fixed;
