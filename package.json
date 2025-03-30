@@ -1,7 +1,7 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
-  "homepage": "https://sakshamengineer.github.io/myportfolio",
+  "homepage": "/myportfolio/#",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",

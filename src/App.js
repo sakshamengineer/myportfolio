@@ -8,8 +8,8 @@ export default function App() {
     <>
       <HashRouter>
         <Routes>
-          <Route exact path="/myportfolio" element={<Home />} />
-          <Route exact path='/About' element = {<About/>}/>
+          <Route path="/" element={<Home />} />
+          <Route path='/about' element = {<About/>}/>
         </Routes>
       </HashRouter>
     </>

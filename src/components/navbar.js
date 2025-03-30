@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import {Link} from "react-router-dom";
 
 export default function Navbar() {
     const [active , noactive] = useState("");
@@ -20,16 +21,16 @@ export default function Navbar() {
                 <div className="innernav">
                     <ul className={`nav-links ${active}`}>
                         <li className="nav-item">
-                            <a className="nav-link active" style={{ '--i': 1 }} aria-current="page" href="/myportfolio">Home</a>
+                            <Link className="nav-link active" style={{ '--i': 1 }} aria-current="page" to="/">Home</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" style={{ '--i': 2 }} href="/about">About Me</a>
+                            <Link className="nav-link" style={{ '--i': 2 }} to="/about">About Me</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" style={{ '--i': 3 }} href="/skills">Skills</a>
+                            <Link className="nav-link" style={{ '--i': 3 }} to="/skills">Skills</Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" style={{ '--i': 5 }} href="/contact">Contact</a>
+                            <Link className="nav-link" style={{ '--i': 5 }} to="/contact">Contact</Link>
                         </li>
                     </ul>
                 </div>
