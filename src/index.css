@@ -82,6 +82,7 @@ img{
   filter: contrast(110%);
   box-shadow: 0px 0px 40px #2a668f;
   margin: 20px;
+  object-fit: cover;
 }
 h1{
   margin: 10px 0px;
