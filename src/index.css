@@ -105,8 +105,8 @@ h1{
   animation-delay: 0.8s;
 }
 p{
-  margin: 30px 0px;
-  font-size: clamp(10px, 1.7vw, 17px);
+  font-size: clamp(14px, 1.7vw, 19px);
+  margin: 25px 0;
 }
 span{
   color: #06dee9;
@@ -182,7 +182,7 @@ button{
       flex-direction: column-reverse;
   }
   .main{
-      height: 114vh;
+      height: 118vh;
   }
   .txt {
       font-size: 1.5em;
