@@ -182,7 +182,7 @@ button{
       flex-direction: column-reverse;
   }
   .main{
-      height: 110vh;
+      height: 100vh;
   }
   .txt {
       font-size: 1.5em;
