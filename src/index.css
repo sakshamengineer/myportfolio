@@ -159,10 +159,6 @@ button{
   animation: slidetop 1s ease forwards;
   animation-delay: 1.2s;
 }
-.right{
-  display: flex;
-  height: 90%;
-}
 
 
 /*  About Txt style */
@@ -204,6 +200,30 @@ button{
   animation-delay: 0.5s;
 }
 
+/* Contact page style */
+
+.CardContent{
+  text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.card{
+  padding: 10px 23px;
+  background: #ffffff2b;
+  border-radius: 30px;
+  box-shadow: 0px 0px 20px #90c79a;
+  opacity: 0;
+  animation: slideside1 1s ease forwards;
+  animation-delay: 0.4s;
+}
+.cardh1{
+  opacity: 0;
+  animation: slideside 1s ease forwards;
+  animation-delay: 0.4s;
+}
 
 /* responsive design */
 
