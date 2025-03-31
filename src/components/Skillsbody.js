@@ -46,6 +46,11 @@ export default function Skillsbody() {
                         <Tskills language="CSS" percentage="65%"/>
                         <Tskills language="JavaScript" percentage="75%"/>
                         <Tskills language="React" percentage="80%"/>
+                        <Tskills language="C" percentage="90%"/>
+                        <Tskills language="JAVA" percentage="40%"/>
+                        <Tskills language="PYTHON" percentage="85%"/>
+                        <Tskills language="SQL" percentage="80%"/>
+                        <Tskills language="MONGODB" percentage="70%"/>
                     </div>
                 </div>
                 <div className='Pskills'>
