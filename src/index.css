@@ -172,10 +172,10 @@ button{
 .About-container{
   width: 82%;
   display: flex;
-  background: black;
+  background: #ffffff0d;
   padding: 0px 30px;
   margin: 10px 10px 30px;
-  box-shadow: 0px 0px 29px #2323d2;
+  box-shadow: 0px 0px 29px #000000;
   border-radius: 20px;
 }
 .about-para{
@@ -199,7 +199,11 @@ button{
   animation: slideside 1s ease forwards;
   animation-delay: 0.5s;
 }
-
+.skillpara2{
+  opacity: 0;
+  animation: slideside 1s ease forwards;
+  animation-delay: 0.5s;
+}
 /* Contact page style */
 
 .CardContent{
@@ -226,6 +230,120 @@ button{
   animation-delay: 0.4s;
 }
 
+/* Skills design*/
+
+.skillbody{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 90vh;
+}
+.skill-container{
+  display: flex;
+  width: 88vw;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 3em;
+}
+.Tskills{
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  min-width: -webkit-fill-available;
+}
+.outerbar{
+  width: 90%;
+  display: flex;
+  background: #ffffff3b;
+  border-radius: 20px;
+  margin: 5px 0px;
+}
+.innerbar{
+  height: 13px;
+  border-radius: 20px;
+  background: #3434ba;
+  box-shadow: 0px 0px 10px black;
+  animation: skillbar 1.5s ease forwards;
+}
+.skillpara{
+  margin: 25px 0px 0px 0px;
+}
+.skillpara1{
+  margin: 0px 6px;
+}
+.pnbar{
+  display: flex;
+}
+.progress-container {
+  position: relative;
+  width: 100px;
+  height: 100px;
+  opacity: 0;
+  animation: zoomin 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+.progress-circle {
+  transform: rotate(-90deg);
+}
+
+.background-circle,
+.progress-bar {
+  fill: none;
+  stroke-width: 10;
+  cx: 50;
+  cy: 50;
+  r: 40;
+}
+
+.background-circle {
+  stroke: #ddd;
+}
+
+.progress-bar {
+  stroke: #4CAF50;
+  stroke-dasharray: 251.2; /* 2 * PI * R (Circumference) */
+  stroke-dashoffset: calc(251.2 * (1 - calc(0.01*var(--k)))); /* Adjust based on progress */
+  stroke-linecap: round;
+  transition: stroke-dashoffset 1s ease-in-out;
+}
+
+.progress-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+  font-weight: bold;
+}
+.Pskills{
+  width: -webkit-fill-available;
+  text-align: center;
+}
+.pskills{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  margin: 3em 0px;
+}
+.stype{
+  display: flex;
+  gap: 4%;
+  width: 100%;
+}
+.SkillCard{
+  background: color(srgb 1 1 1 / 0.1);
+  padding: 25px 40px;
+  border-radius: 25px;
+  box-shadow: 0px 0px 20px black;
+  margin: 20px;
+}
+h1{
+  opacity: 0;
+  animation: slideBottom 1s ease forwards;
+}
 /* responsive design */
 
 
@@ -314,4 +432,12 @@ button{
       transform: scale(1);
       opacity: 1;
   }
+}
+@keyframes skillbar{
+  0%{
+    width: 0%;
+}
+100%{
+    width: var(--j);
+}
 }

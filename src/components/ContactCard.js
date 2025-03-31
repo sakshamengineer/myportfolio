@@ -8,8 +8,8 @@ export default function ContactCard() {
         <img src="https://media.licdn.com/dms/image/v2/D4D03AQFINjv5LzdJTA/profile-displayphoto-shrink_400_400/B4DZXiAjmjHAAg-/0/1743253552286?e=1748476800&v=beta&t=CIyiI_h3ZPLuKT2hZn82iZn95qtKN7KPg9jGGZCOi44" alt="Myimg" style={{animationDelay: '0.5s',height:'200px'}} />
         <h2>Saksham Gupta</h2>
         <h3>Frontend Developer</h3>
-        <p>phone: +91-9911912563</p>
-        <p>email: sakshamkgupta01@gmail.com</p>
+        <p>Phone: +91-9911912563</p>
+        <p>Email: sakshamkgupta01@gmail.com</p>
       </div>
     </div>
   )
